@@ -1,0 +1,31 @@
+body {
+	font-family: arial;
+}
+
+#map-canvas { 
+	height:auto;
+	margin: 0;
+	padding: 0;	
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	display:block;
+	width:100%;
+}
+
+#layerList{
+	position: relative;
+	margin-top:2px;
+	left:6px;
+	width:306px;
+	max-height:100%;
+	min-height:200px;
+	border: thin solid black;
+	z-index: 1000;
+	opacity:0.9;
+	background-color: white;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	line-height: 18px;
+	float:left;
+}
